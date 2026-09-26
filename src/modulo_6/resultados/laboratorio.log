@@ -1,0 +1,17 @@
+2026-09-24 17:41:08,871 | INFO     | __main__ | === Iniciando laboratorio módulo 6 ===
+2026-09-24 17:41:08,873 | INFO     | __main__ | CSV de ejemplo creado: modulo_6\resultados\ventas.csv
+2026-09-24 17:41:08,873 | INFO     | __main__ | Iniciando ingesta de CSV: modulo_6\resultados\ventas.csv
+2026-09-24 17:41:08,874 | DEBUG    | __main__ | Fila leída: Laptop
+2026-09-24 17:41:08,874 | DEBUG    | __main__ | Fila leída: Mouse
+2026-09-24 17:41:08,874 | DEBUG    | __main__ | Fila leída: Teclado
+2026-09-24 17:41:08,874 | DEBUG    | __main__ | Fila leída: Silla
+2026-09-24 17:41:08,874 | DEBUG    | __main__ | Fila leída: Escritorio
+2026-09-24 17:41:08,879 | DEBUG    | __main__ | Fila leída: Libreta
+2026-09-24 17:41:08,880 | DEBUG    | __main__ | Fila leída: Pluma
+2026-09-24 17:41:08,880 | INFO     | __main__ | Ingesta completada: 7 registros leídos
+2026-09-24 17:41:08,880 | INFO     | __main__ | Calculando métricas...
+2026-09-24 17:41:08,880 | DEBUG    | __main__ | Métricas calculadas: {'total_productos': 7, 'precio_promedio': 336.71, 'precio_maximo': 1500.0, 'precio_minimo': 2.0, 'cantidad_total': 178, 'venta_total': 8200.0, 'venta_por_categoria': {'Electronica': 5350.0, 'Muebles': 2400.0, 'Papeleria': 450.0}}
+2026-09-24 17:41:08,880 | INFO     | __main__ | Total productos: 7
+2026-09-24 17:41:08,880 | INFO     | __main__ | Venta total: $8200.0
+2026-09-24 17:41:08,882 | INFO     | __main__ | Métricas exportadas a JSON: modulo_6\resultados\metricas.json
+2026-09-24 17:41:08,882 | INFO     | __main__ | === Laboratorio finalizado exitosamente ===

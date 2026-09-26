@@ -1,0 +1,17 @@
+2026-09-24 17:31:52,892 | INFO     | __main__ | === Iniciando aplicación ===
+2026-09-24 17:31:52,892 | DEBUG    | __main__ | Esto es DEBUG — detalle para desarrollo
+2026-09-24 17:31:52,892 | INFO     | __main__ | Esto es INFO — todo va bien
+2026-09-24 17:31:52,893 | WARNING  | __main__ | Esto es WARNING — algo inesperado
+2026-09-24 17:31:52,893 | ERROR    | __main__ | Esto es ERROR — algo salió mal
+2026-09-24 17:31:52,893 | CRITICAL | __main__ | Esto es CRITICAL — error grave
+2026-09-24 17:31:52,893 | INFO     | __main__ |
+=== Procesando usuarios ===
+2026-09-24 17:31:52,893 | INFO     | __main__ | Procesando usuario: Ana
+2026-09-24 17:31:52,894 | DEBUG    | __main__ | Usuario válido: Ana, 30
+2026-09-24 17:31:52,894 | INFO     | __main__ | Procesando usuario:
+2026-09-24 17:31:52,898 | ERROR    | __main__ | El nombre no puede estar vacío
+2026-09-24 17:31:52,899 | INFO     | __main__ | Procesando usuario: Juan
+2026-09-24 17:31:52,899 | WARNING  | __main__ | Edad fuera de rango: 150
+2026-09-24 17:31:52,899 | INFO     | __main__ | Procesando usuario: Maria
+2026-09-24 17:31:52,899 | DEBUG    | __main__ | Usuario válido: Maria, 28
+2026-09-24 17:31:52,899 | INFO     | __main__ | === Aplicación finalizada ===

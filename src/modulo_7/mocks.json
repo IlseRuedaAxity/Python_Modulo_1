@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "method": "GET",
+      "path": "/usuarios/1"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": ["application/json"]
+      },
+      "body": "{\"id\": 1, \"nombre\": \"Ana Lopez\", \"email\": \"ana@ejemplo.com\"}"
+    }
+  },
+  {
+    "request": {
+      "method": "GET",
+      "path": "/archivo"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": ["text/plain"]
+      },
+      "body": "Linea 1\nLinea 2\nLinea 3\nLinea 4\nLinea 5"
+    }
+  }
+]

@@ -1,2 +1,2 @@
-def hola_mundo():
+def hola_mundo() -> None:
     print("Hola, mundo!")

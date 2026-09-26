@@ -1,0 +1,13 @@
+{
+    "total_productos": 7,
+    "precio_promedio": 336.71,
+    "precio_maximo": 1500.0,
+    "precio_minimo": 2.0,
+    "cantidad_total": 178,
+    "venta_total": 8200.0,
+    "venta_por_categoria": {
+        "Electronica": 5350.0,
+        "Muebles": 2400.0,
+        "Papeleria": 450.0
+    }
+}

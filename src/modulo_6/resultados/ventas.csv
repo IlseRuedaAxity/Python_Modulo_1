@@ -1,0 +1,8 @@
+producto,categoria,precio,cantidad
+Laptop,Electronica,1500.0,3
+Mouse,Electronica,25.0,10
+Teclado,Electronica,75.0,8
+Silla,Muebles,300.0,5
+Escritorio,Muebles,450.0,2
+Libreta,Papeleria,5.0,50
+Pluma,Papeleria,2.0,100

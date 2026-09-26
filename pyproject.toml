@@ -1,0 +1,45 @@
+[project]
+name = "modulo-1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "IlseRueda.Axity",email = "ilse.rueda@axity.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "modulo_1", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "black (>=26.5.1,<27.0.0)",
+    "isort (>=9.0.1,<10.0.0)",
+    "ruff (>=0.16.8,<0.17.0)",
+    "pre-commit (>=4.6.2,<5.0.0)"
+]
+
+[tool.black]
+target-version = ['py312']
+line-length = 88
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"]
