@@ -118,15 +118,15 @@ def ejecutar(fn: Callable[[int, str], bool]) -> bool:
 
 
 # TypeVar — genéricos (sintaxis compatible con mypy)
-T = TypeVar("T")
+T = TypeVar("T")  # noqa: UP046
 
 
-def primero(lista: list[T]) -> T:
+def primero(lista: list[T]) -> T:  # noqa: UP047
     return lista[0]
 
 
 # Generic — clases genéricas (sintaxis compatible con mypy)
-class Caja(Generic[T]):
+class Caja(Generic[T]):  # noqa: UP046
     def __init__(self, contenido: T) -> None:
         self.contenido = contenido
 
